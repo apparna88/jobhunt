@@ -1,0 +1,1246 @@
+{
+  "_comment": "Direct-employer tech/fintech boards, API-validated. type: greenhouse|lever|ashby|workday. Add more slugs to widen coverage.",
+  "companies": [
+    {
+      "name": "1Password",
+      "type": "ashby",
+      "token": "1password"
+    },
+    {
+      "name": "Abridge",
+      "type": "ashby",
+      "token": "abridge"
+    },
+    {
+      "name": "Airbyte",
+      "type": "ashby",
+      "token": "airbyte"
+    },
+    {
+      "name": "Anyscale",
+      "type": "ashby",
+      "token": "anyscale"
+    },
+    {
+      "name": "Ashby",
+      "type": "ashby",
+      "token": "ashby"
+    },
+    {
+      "name": "Astra",
+      "type": "ashby",
+      "token": "astra"
+    },
+    {
+      "name": "Astronomer",
+      "type": "ashby",
+      "token": "astronomer"
+    },
+    {
+      "name": "Baseten",
+      "type": "ashby",
+      "token": "baseten"
+    },
+    {
+      "name": "Benchling",
+      "type": "ashby",
+      "token": "benchling"
+    },
+    {
+      "name": "Braintrust",
+      "type": "ashby",
+      "token": "braintrust"
+    },
+    {
+      "name": "Cape",
+      "type": "ashby",
+      "token": "cape"
+    },
+    {
+      "name": "Cedar",
+      "type": "ashby",
+      "token": "cedar"
+    },
+    {
+      "name": "Cerebras",
+      "type": "ashby",
+      "token": "cerebras"
+    },
+    {
+      "name": "Chroma",
+      "type": "ashby",
+      "token": "trychroma"
+    },
+    {
+      "name": "Circle",
+      "type": "ashby",
+      "token": "circle"
+    },
+    {
+      "name": "Clerk",
+      "type": "ashby",
+      "token": "clerk"
+    },
+    {
+      "name": "Clickhouse",
+      "type": "ashby",
+      "token": "clickhouse"
+    },
+    {
+      "name": "ClickUp",
+      "type": "ashby",
+      "token": "clickup"
+    },
+    {
+      "name": "Codat",
+      "type": "ashby",
+      "token": "codat"
+    },
+    {
+      "name": "Coder",
+      "type": "ashby",
+      "token": "coder"
+    },
+    {
+      "name": "Cognition",
+      "type": "ashby",
+      "token": "cognition"
+    },
+    {
+      "name": "Cohere",
+      "type": "ashby",
+      "token": "cohere"
+    },
+    {
+      "name": "Column",
+      "type": "ashby",
+      "token": "column"
+    },
+    {
+      "name": "Commure",
+      "type": "ashby",
+      "token": "commure"
+    },
+    {
+      "name": "Confluent",
+      "type": "ashby",
+      "token": "confluent"
+    },
+    {
+      "name": "Crusoe",
+      "type": "ashby",
+      "token": "crusoe"
+    },
+    {
+      "name": "Cursor",
+      "type": "ashby",
+      "token": "cursor"
+    },
+    {
+      "name": "Dave",
+      "type": "ashby",
+      "token": "dave"
+    },
+    {
+      "name": "Decagon",
+      "type": "ashby",
+      "token": "decagon"
+    },
+    {
+      "name": "Deel",
+      "type": "ashby",
+      "token": "deel"
+    },
+    {
+      "name": "Demandbase",
+      "type": "ashby",
+      "token": "demandbase"
+    },
+    {
+      "name": "Docker",
+      "type": "ashby",
+      "token": "docker"
+    },
+    {
+      "name": "Drata",
+      "type": "ashby",
+      "token": "drata"
+    },
+    {
+      "name": "ElevenLabs",
+      "type": "ashby",
+      "token": "elevenlabs"
+    },
+    {
+      "name": "Finch",
+      "type": "ashby",
+      "token": "finch"
+    },
+    {
+      "name": "Gamma",
+      "type": "ashby",
+      "token": "gamma"
+    },
+    {
+      "name": "Harvey",
+      "type": "ashby",
+      "token": "harvey"
+    },
+    {
+      "name": "Headway",
+      "type": "ashby",
+      "token": "headway"
+    },
+    {
+      "name": "Hex",
+      "type": "ashby",
+      "token": "hex"
+    },
+    {
+      "name": "Inngest",
+      "type": "ashby",
+      "token": "inngest"
+    },
+    {
+      "name": "Knot",
+      "type": "ashby",
+      "token": "knot"
+    },
+    {
+      "name": "Lambda",
+      "type": "ashby",
+      "token": "lambda"
+    },
+    {
+      "name": "LangChain",
+      "type": "ashby",
+      "token": "langchain"
+    },
+    {
+      "name": "Linear",
+      "type": "ashby",
+      "token": "linear"
+    },
+    {
+      "name": "Luma AI",
+      "type": "ashby",
+      "token": "lumaai"
+    },
+    {
+      "name": "Material Security",
+      "type": "ashby",
+      "token": "materialsecurity"
+    },
+    {
+      "name": "Materialize",
+      "type": "ashby",
+      "token": "materialize"
+    },
+    {
+      "name": "Mercor",
+      "type": "ashby",
+      "token": "mercor"
+    },
+    {
+      "name": "Merge",
+      "type": "ashby",
+      "token": "merge"
+    },
+    {
+      "name": "Middesk",
+      "type": "ashby",
+      "token": "middesk"
+    },
+    {
+      "name": "Miro",
+      "type": "ashby",
+      "token": "miro"
+    },
+    {
+      "name": "Modal",
+      "type": "ashby",
+      "token": "modal"
+    },
+    {
+      "name": "Modern Treasury",
+      "type": "ashby",
+      "token": "moderntreasury"
+    },
+    {
+      "name": "Monte Carlo",
+      "type": "ashby",
+      "token": "montecarlodata"
+    },
+    {
+      "name": "Neon",
+      "type": "ashby",
+      "token": "neon"
+    },
+    {
+      "name": "Notion",
+      "type": "ashby",
+      "token": "notion"
+    },
+    {
+      "name": "Nubank",
+      "type": "ashby",
+      "token": "nubank"
+    },
+    {
+      "name": "Omni",
+      "type": "ashby",
+      "token": "omni"
+    },
+    {
+      "name": "OpenAI",
+      "type": "ashby",
+      "token": "openai"
+    },
+    {
+      "name": "Oso",
+      "type": "ashby",
+      "token": "oso"
+    },
+    {
+      "name": "Parafin",
+      "type": "ashby",
+      "token": "parafin"
+    },
+    {
+      "name": "Paxos",
+      "type": "ashby",
+      "token": "paxos"
+    },
+    {
+      "name": "Perplexity",
+      "type": "ashby",
+      "token": "perplexity"
+    },
+    {
+      "name": "Persona",
+      "type": "ashby",
+      "token": "persona"
+    },
+    {
+      "name": "Physical Intelligence",
+      "type": "ashby",
+      "token": "physicalintelligence"
+    },
+    {
+      "name": "Pika",
+      "type": "ashby",
+      "token": "pika"
+    },
+    {
+      "name": "Pinecone",
+      "type": "ashby",
+      "token": "pinecone"
+    },
+    {
+      "name": "Plaid",
+      "type": "ashby",
+      "token": "plaid"
+    },
+    {
+      "name": "Poolside",
+      "type": "ashby",
+      "token": "poolside"
+    },
+    {
+      "name": "PostHog",
+      "type": "ashby",
+      "token": "posthog"
+    },
+    {
+      "name": "Prefect",
+      "type": "ashby",
+      "token": "prefect"
+    },
+    {
+      "name": "Railway",
+      "type": "ashby",
+      "token": "railway"
+    },
+    {
+      "name": "Ramp",
+      "type": "ashby",
+      "token": "ramp"
+    },
+    {
+      "name": "Render",
+      "type": "ashby",
+      "token": "render"
+    },
+    {
+      "name": "Replit",
+      "type": "ashby",
+      "token": "replit"
+    },
+    {
+      "name": "Resend",
+      "type": "ashby",
+      "token": "resend"
+    },
+    {
+      "name": "Rho",
+      "type": "ashby",
+      "token": "rho"
+    },
+    {
+      "name": "Rogo",
+      "type": "ashby",
+      "token": "rogo"
+    },
+    {
+      "name": "Runway",
+      "type": "ashby",
+      "token": "runway"
+    },
+    {
+      "name": "Rutter",
+      "type": "ashby",
+      "token": "rutter"
+    },
+    {
+      "name": "Sardine",
+      "type": "ashby",
+      "token": "sardine"
+    },
+    {
+      "name": "Saronic",
+      "type": "ashby",
+      "token": "saronic"
+    },
+    {
+      "name": "Secureframe",
+      "type": "ashby",
+      "token": "secureframe"
+    },
+    {
+      "name": "Semgrep",
+      "type": "ashby",
+      "token": "semgrep"
+    },
+    {
+      "name": "Sentry",
+      "type": "ashby",
+      "token": "sentry"
+    },
+    {
+      "name": "Sierra",
+      "type": "ashby",
+      "token": "sierra"
+    },
+    {
+      "name": "Sift",
+      "type": "ashby",
+      "token": "sift"
+    },
+    {
+      "name": "Snowflake",
+      "type": "ashby",
+      "token": "snowflake"
+    },
+    {
+      "name": "Suno",
+      "type": "ashby",
+      "token": "suno"
+    },
+    {
+      "name": "Supabase",
+      "type": "ashby",
+      "token": "supabase"
+    },
+    {
+      "name": "Synthesia",
+      "type": "ashby",
+      "token": "synthesia"
+    },
+    {
+      "name": "Temporal",
+      "type": "ashby",
+      "token": "temporal"
+    },
+    {
+      "name": "Titan",
+      "type": "ashby",
+      "token": "titan"
+    },
+    {
+      "name": "Trigger.dev",
+      "type": "ashby",
+      "token": "triggerdev"
+    },
+    {
+      "name": "Uniswap",
+      "type": "ashby",
+      "token": "uniswap"
+    },
+    {
+      "name": "Unit",
+      "type": "ashby",
+      "token": "unit"
+    },
+    {
+      "name": "Vanta",
+      "type": "ashby",
+      "token": "vanta"
+    },
+    {
+      "name": "Vesta",
+      "type": "ashby",
+      "token": "vesta"
+    },
+    {
+      "name": "Weaviate",
+      "type": "ashby",
+      "token": "weaviate"
+    },
+    {
+      "name": "WorkOS",
+      "type": "ashby",
+      "token": "workos"
+    },
+    {
+      "name": "Writer",
+      "type": "ashby",
+      "token": "writer"
+    },
+    {
+      "name": "Zapier",
+      "type": "ashby",
+      "token": "zapier"
+    },
+    {
+      "name": "Zip",
+      "type": "ashby",
+      "token": "zip"
+    },
+    {
+      "name": "6sense",
+      "type": "greenhouse",
+      "token": "6sense"
+    },
+    {
+      "name": "Abnormal Security",
+      "type": "greenhouse",
+      "token": "abnormalsecurity"
+    },
+    {
+      "name": "Affirm",
+      "type": "greenhouse",
+      "token": "affirm"
+    },
+    {
+      "name": "Airbnb",
+      "type": "greenhouse",
+      "token": "airbnb"
+    },
+    {
+      "name": "Airtable",
+      "type": "greenhouse",
+      "token": "airtable"
+    },
+    {
+      "name": "Alloy",
+      "type": "greenhouse",
+      "token": "alloy"
+    },
+    {
+      "name": "Amplitude",
+      "type": "greenhouse",
+      "token": "amplitude"
+    },
+    {
+      "name": "Anthropic",
+      "type": "greenhouse",
+      "token": "anthropic"
+    },
+    {
+      "name": "Apollo",
+      "type": "greenhouse",
+      "token": "apolloio"
+    },
+    {
+      "name": "Asana",
+      "type": "greenhouse",
+      "token": "asana"
+    },
+    {
+      "name": "Betterment",
+      "type": "greenhouse",
+      "token": "betterment"
+    },
+    {
+      "name": "Bill",
+      "type": "greenhouse",
+      "token": "billcom"
+    },
+    {
+      "name": "Brex",
+      "type": "greenhouse",
+      "token": "brex"
+    },
+    {
+      "name": "Calendly",
+      "type": "greenhouse",
+      "token": "calendly"
+    },
+    {
+      "name": "Carta",
+      "type": "greenhouse",
+      "token": "carta"
+    },
+    {
+      "name": "Chainguard",
+      "type": "greenhouse",
+      "token": "chainguard"
+    },
+    {
+      "name": "Chime",
+      "type": "greenhouse",
+      "token": "chime"
+    },
+    {
+      "name": "CircleCI",
+      "type": "greenhouse",
+      "token": "circleci"
+    },
+    {
+      "name": "Cloudflare",
+      "type": "greenhouse",
+      "token": "cloudflare"
+    },
+    {
+      "name": "Cockroach Labs",
+      "type": "greenhouse",
+      "token": "cockroachlabs"
+    },
+    {
+      "name": "Cohere Health",
+      "type": "greenhouse",
+      "token": "coherehealth"
+    },
+    {
+      "name": "Coinbase",
+      "type": "greenhouse",
+      "token": "coinbase"
+    },
+    {
+      "name": "CoreWeave",
+      "type": "greenhouse",
+      "token": "coreweave"
+    },
+    {
+      "name": "Cortex",
+      "type": "greenhouse",
+      "token": "cortex"
+    },
+    {
+      "name": "Cresta",
+      "type": "greenhouse",
+      "token": "cresta"
+    },
+    {
+      "name": "Cribl",
+      "type": "greenhouse",
+      "token": "cribl"
+    },
+    {
+      "name": "Current",
+      "type": "greenhouse",
+      "token": "current"
+    },
+    {
+      "name": "Databricks",
+      "type": "greenhouse",
+      "token": "databricks"
+    },
+    {
+      "name": "Datadog",
+      "type": "greenhouse",
+      "token": "datadog"
+    },
+    {
+      "name": "Descope",
+      "type": "greenhouse",
+      "token": "descope"
+    },
+    {
+      "name": "Descript",
+      "type": "greenhouse",
+      "token": "descript"
+    },
+    {
+      "name": "Discord",
+      "type": "greenhouse",
+      "token": "discord"
+    },
+    {
+      "name": "DoorDash",
+      "type": "greenhouse",
+      "token": "doordashusa"
+    },
+    {
+      "name": "Dropbox",
+      "type": "greenhouse",
+      "token": "dropbox"
+    },
+    {
+      "name": "Elastic",
+      "type": "greenhouse",
+      "token": "elastic"
+    },
+    {
+      "name": "Faire",
+      "type": "greenhouse",
+      "token": "faire"
+    },
+    {
+      "name": "Figma",
+      "type": "greenhouse",
+      "token": "figma"
+    },
+    {
+      "name": "Figure",
+      "type": "greenhouse",
+      "token": "figure"
+    },
+    {
+      "name": "Fireblocks",
+      "type": "greenhouse",
+      "token": "fireblocks"
+    },
+    {
+      "name": "Fivetran",
+      "type": "greenhouse",
+      "token": "fivetran"
+    },
+    {
+      "name": "Flatiron Health",
+      "type": "greenhouse",
+      "token": "flatironhealth"
+    },
+    {
+      "name": "Flexport",
+      "type": "greenhouse",
+      "token": "flexport"
+    },
+    {
+      "name": "Gemini",
+      "type": "greenhouse",
+      "token": "gemini"
+    },
+    {
+      "name": "GitLab",
+      "type": "greenhouse",
+      "token": "gitlab"
+    },
+    {
+      "name": "Glean",
+      "type": "greenhouse",
+      "token": "gleanwork"
+    },
+    {
+      "name": "Gong",
+      "type": "greenhouse",
+      "token": "gongio"
+    },
+    {
+      "name": "Grafana Labs",
+      "type": "greenhouse",
+      "token": "grafanalabs"
+    },
+    {
+      "name": "Gusto",
+      "type": "greenhouse",
+      "token": "gusto"
+    },
+    {
+      "name": "Highnote",
+      "type": "greenhouse",
+      "token": "highnote"
+    },
+    {
+      "name": "Hightouch",
+      "type": "greenhouse",
+      "token": "hightouch"
+    },
+    {
+      "name": "Honeycomb",
+      "type": "greenhouse",
+      "token": "honeycomb"
+    },
+    {
+      "name": "Imbue",
+      "type": "greenhouse",
+      "token": "imbue"
+    },
+    {
+      "name": "Instacart",
+      "type": "greenhouse",
+      "token": "instacart"
+    },
+    {
+      "name": "Justworks",
+      "type": "greenhouse",
+      "token": "justworks"
+    },
+    {
+      "name": "Kalshi",
+      "type": "greenhouse",
+      "token": "kalshi"
+    },
+    {
+      "name": "Knock",
+      "type": "greenhouse",
+      "token": "knock"
+    },
+    {
+      "name": "Kodiak",
+      "type": "greenhouse",
+      "token": "kodiak"
+    },
+    {
+      "name": "Komodo Health",
+      "type": "greenhouse",
+      "token": "komodohealth"
+    },
+    {
+      "name": "LaunchDarkly",
+      "type": "greenhouse",
+      "token": "launchdarkly"
+    },
+    {
+      "name": "Lithic",
+      "type": "greenhouse",
+      "token": "lithic"
+    },
+    {
+      "name": "Maven Clinic",
+      "type": "greenhouse",
+      "token": "mavenclinic"
+    },
+    {
+      "name": "Mercury",
+      "type": "greenhouse",
+      "token": "mercury"
+    },
+    {
+      "name": "Mixpanel",
+      "type": "greenhouse",
+      "token": "mixpanel"
+    },
+    {
+      "name": "MongoDB",
+      "type": "greenhouse",
+      "token": "mongodb"
+    },
+    {
+      "name": "Navan",
+      "type": "greenhouse",
+      "token": "tripactions"
+    },
+    {
+      "name": "Netlify",
+      "type": "greenhouse",
+      "token": "netlify"
+    },
+    {
+      "name": "New Relic",
+      "type": "greenhouse",
+      "token": "newrelic"
+    },
+    {
+      "name": "Nova Credit",
+      "type": "greenhouse",
+      "token": "novacredit"
+    },
+    {
+      "name": "Nuro",
+      "type": "greenhouse",
+      "token": "nuro"
+    },
+    {
+      "name": "Okta",
+      "type": "greenhouse",
+      "token": "okta"
+    },
+    {
+      "name": "Ondo",
+      "type": "greenhouse",
+      "token": "ondofinance"
+    },
+    {
+      "name": "Oscar Health",
+      "type": "greenhouse",
+      "token": "oscar"
+    },
+    {
+      "name": "Pendo",
+      "type": "greenhouse",
+      "token": "pendo"
+    },
+    {
+      "name": "PlanetScale",
+      "type": "greenhouse",
+      "token": "planetscale"
+    },
+    {
+      "name": "Public",
+      "type": "greenhouse",
+      "token": "public"
+    },
+    {
+      "name": "Reddit",
+      "type": "greenhouse",
+      "token": "reddit"
+    },
+    {
+      "name": "Remote",
+      "type": "greenhouse",
+      "token": "remote"
+    },
+    {
+      "name": "Robinhood",
+      "type": "greenhouse",
+      "token": "robinhood"
+    },
+    {
+      "name": "Salesloft",
+      "type": "greenhouse",
+      "token": "salesloft"
+    },
+    {
+      "name": "Samsara",
+      "type": "greenhouse",
+      "token": "samsara"
+    },
+    {
+      "name": "Scale AI",
+      "type": "greenhouse",
+      "token": "scaleai"
+    },
+    {
+      "name": "Sigma Computing",
+      "type": "greenhouse",
+      "token": "sigmacomputing"
+    },
+    {
+      "name": "SingleStore",
+      "type": "greenhouse",
+      "token": "singlestore"
+    },
+    {
+      "name": "SoFi",
+      "type": "greenhouse",
+      "token": "sofi"
+    },
+    {
+      "name": "Squarespace",
+      "type": "greenhouse",
+      "token": "squarespace"
+    },
+    {
+      "name": "StarTree",
+      "type": "greenhouse",
+      "token": "startree"
+    },
+    {
+      "name": "Stash",
+      "type": "greenhouse",
+      "token": "stashinvest"
+    },
+    {
+      "name": "StreamNative",
+      "type": "greenhouse",
+      "token": "streamnative"
+    },
+    {
+      "name": "Stripe",
+      "type": "greenhouse",
+      "token": "stripe"
+    },
+    {
+      "name": "Tailscale",
+      "type": "greenhouse",
+      "token": "tailscale"
+    },
+    {
+      "name": "Tines",
+      "type": "greenhouse",
+      "token": "tines"
+    },
+    {
+      "name": "Toast",
+      "type": "greenhouse",
+      "token": "toast"
+    },
+    {
+      "name": "Together AI",
+      "type": "greenhouse",
+      "token": "togetherai"
+    },
+    {
+      "name": "Torq",
+      "type": "greenhouse",
+      "token": "torq"
+    },
+    {
+      "name": "Turing",
+      "type": "greenhouse",
+      "token": "turing"
+    },
+    {
+      "name": "Twilio",
+      "type": "greenhouse",
+      "token": "twilio"
+    },
+    {
+      "name": "Vannevar Labs",
+      "type": "greenhouse",
+      "token": "vannevarlabs"
+    },
+    {
+      "name": "Vercel",
+      "type": "greenhouse",
+      "token": "vercel"
+    },
+    {
+      "name": "Verkada",
+      "type": "greenhouse",
+      "token": "verkada"
+    },
+    {
+      "name": "Warp",
+      "type": "greenhouse",
+      "token": "warp"
+    },
+    {
+      "name": "Webflow",
+      "type": "greenhouse",
+      "token": "webflow"
+    },
+    {
+      "name": "Wing",
+      "type": "greenhouse",
+      "token": "wing"
+    },
+    {
+      "name": "Wise",
+      "type": "greenhouse",
+      "token": "wise"
+    },
+    {
+      "name": "Wiz",
+      "type": "greenhouse",
+      "token": "wizinc"
+    },
+    {
+      "name": "Yugabyte",
+      "type": "greenhouse",
+      "token": "yugabyte"
+    },
+    {
+      "name": "Zipline",
+      "type": "greenhouse",
+      "token": "flyzipline"
+    },
+    {
+      "name": "Anchorage",
+      "type": "lever",
+      "token": "anchorage"
+    },
+    {
+      "name": "AngelList",
+      "type": "lever",
+      "token": "angellist"
+    },
+    {
+      "name": "Fundrise",
+      "type": "lever",
+      "token": "fundrise"
+    },
+    {
+      "name": "Gauntlet",
+      "type": "lever",
+      "token": "gauntlet"
+    },
+    {
+      "name": "Gopuff",
+      "type": "lever",
+      "token": "gopuff"
+    },
+    {
+      "name": "Included Health",
+      "type": "lever",
+      "token": "includedhealth"
+    },
+    {
+      "name": "Metabase",
+      "type": "lever",
+      "token": "metabase"
+    },
+    {
+      "name": "Nium",
+      "type": "lever",
+      "token": "nium"
+    },
+    {
+      "name": "Outreach",
+      "type": "lever",
+      "token": "outreach"
+    },
+    {
+      "name": "Ro",
+      "type": "lever",
+      "token": "ro"
+    },
+    {
+      "name": "Shield AI",
+      "type": "lever",
+      "token": "shieldai"
+    },
+    {
+      "name": "Waabi",
+      "type": "lever",
+      "token": "waabi"
+    },
+    {
+      "name": "Wealthfront",
+      "type": "lever",
+      "token": "wealthfront"
+    },
+    {
+      "name": "Zilliz",
+      "type": "lever",
+      "token": "zilliz"
+    },
+    {
+      "name": "Adobe",
+      "type": "workday",
+      "tenant": "adobe",
+      "host": "wd5",
+      "site": "external_experienced"
+    },
+    {
+      "name": "Analog Devices",
+      "type": "workday",
+      "tenant": "analogdevices",
+      "host": "wd1",
+      "site": "External"
+    },
+    {
+      "name": "Autodesk",
+      "type": "workday",
+      "tenant": "autodesk",
+      "host": "wd1",
+      "site": "Ext"
+    },
+    {
+      "name": "Broadcom (VMware)",
+      "type": "workday",
+      "tenant": "broadcom",
+      "host": "wd1",
+      "site": "External_Career"
+    },
+    {
+      "name": "Ciena",
+      "type": "workday",
+      "tenant": "ciena",
+      "host": "wd5",
+      "site": "Careers"
+    },
+    {
+      "name": "Cisco",
+      "type": "workday",
+      "tenant": "cisco",
+      "host": "wd5",
+      "site": "Cisco_Careers"
+    },
+    {
+      "name": "Guidewire",
+      "type": "workday",
+      "tenant": "guidewire",
+      "host": "wd5",
+      "site": "External"
+    },
+    {
+      "name": "Mastercard",
+      "type": "workday",
+      "tenant": "mastercard",
+      "host": "wd1",
+      "site": "CorporateCareers"
+    },
+    {
+      "name": "Micron",
+      "type": "workday",
+      "tenant": "micron",
+      "host": "wd1",
+      "site": "External"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "workday",
+      "tenant": "nvidia",
+      "host": "wd5",
+      "site": "NVIDIAExternalCareerSite"
+    },
+    {
+      "name": "PayPal",
+      "type": "workday",
+      "tenant": "paypal",
+      "host": "wd1",
+      "site": "jobs"
+    },
+    {
+      "name": "Qualys",
+      "type": "workday",
+      "tenant": "qualys",
+      "host": "wd5",
+      "site": "Careers"
+    },
+    {
+      "name": "SailPoint",
+      "type": "workday",
+      "tenant": "sailpoint",
+      "host": "wd1",
+      "site": "sailpoint"
+    },
+    {
+      "name": "Salesforce",
+      "type": "workday",
+      "tenant": "salesforce",
+      "host": "wd12",
+      "site": "External_Career_Site"
+    },
+    {
+      "name": "Thomson Reuters",
+      "type": "workday",
+      "tenant": "thomsonreuters",
+      "host": "wd5",
+      "site": "External_Career_Site"
+    },
+    {
+      "name": "Visa",
+      "type": "workday",
+      "tenant": "visa",
+      "host": "wd5",
+      "site": "visa"
+    },
+    {
+      "name": "Workday",
+      "type": "workday",
+      "tenant": "workday",
+      "host": "wd5",
+      "site": "workday"
+    },
+    {
+      "name": "Zoom",
+      "type": "workday",
+      "tenant": "zoom",
+      "host": "wd5",
+      "site": "zoom"
+    }
+  ]
+}

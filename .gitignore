@@ -1,0 +1,11 @@
+# your personal search config and outputs
+profile.json
+hits.html
+*.csv
+*.json.out
+urls.txt
+
+# python
+__pycache__/
+*.pyc
+.venv/

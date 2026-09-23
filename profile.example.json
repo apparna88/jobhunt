@@ -1,0 +1,16 @@
+{
+  "_comment": "Copy this to profile.json and edit for your search. Delete fields you don't want.",
+  "title": ["software engineer", "software developer", "frontend", "full stack", "forward deployed", "embedded", "backend", "platform"],
+  "stack": ["react", "typescript", "python", "go", "java"],
+  "max_age": 3,
+  "exclude": ["intern", "co-op", "apprentice", "new grad", "junior", "entry"],
+  "level": ["senior", "sr", "staff", "lead"],
+  "locations": {
+    "remote": "us",
+    "onsite_hybrid": [
+      {"cities": ["new york", "nyc"], "modes": ["hybrid"]},
+      {"cities": ["san francisco", "sf", "bay area"], "modes": ["onsite", "hybrid"]}
+    ]
+  },
+  "html": "hits.html"
+}

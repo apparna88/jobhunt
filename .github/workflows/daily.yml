@@ -1,0 +1,41 @@
+# Optional: run jobhunt daily and publish hits.html to GitHub Pages.
+# Enable at: repo Settings -> Pages -> Source: "GitHub Actions".
+# Uses profile.json if committed, else profile.example.json.
+name: daily-jobhunt
+
+on:
+  schedule:
+    - cron: "0 13 * * 1-5"   # weekdays 13:00 UTC (~9am ET)
+  workflow_dispatch:            # manual "Run workflow" button
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run jobhunt
+        run: |
+          mkdir -p public
+          test -f profile.json || cp profile.example.json profile.json
+          python3 jobhunt.py --html public/index.html
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
