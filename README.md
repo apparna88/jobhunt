@@ -16,13 +16,20 @@ to exactly what you can apply to.
 ## Quick start
 
 ```bash
-git clone https://github.com/<you>/jobhunt.git
+git clone https://github.com/apparna88/jobhunt.git
 cd jobhunt
-cp profile.example.json profile.json   # then edit profile.json for your search
-python3 jobhunt.py
+python3 jobhunt.py          # runs with the default profile.json
 ```
 
 Results print to the terminal and (if `html` is set in your profile) write `hits.html`.
+
+**Make it yours:** edit `profile.json` directly, or — to keep your edits private and
+avoid git conflicts — copy it to `profile.local.json` (git-ignored, and used
+automatically when present):
+
+```bash
+cp profile.json profile.local.json   # then edit profile.local.json
+```
 
 ## Configure your search
 

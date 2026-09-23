@@ -1,8 +1,7 @@
-# your personal search config and outputs
-profile.json
+# your private search config + outputs (never committed)
+profile.local.json
 hits.html
 *.csv
-*.json.out
 urls.txt
 
 # python

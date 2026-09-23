@@ -1,0 +1,16 @@
+{
+  "_comment": "Default search — committed as a working sample. Edit for your own use, or copy to profile.local.json (git-ignored) to keep your changes private. Delete any field to disable that filter; CLI flags override these.",
+  "title": ["software engineer", "software developer", "full stack", "backend", "frontend"],
+  "stack": ["python", "typescript", "react", "go", "java"],
+  "max_age": 3,
+  "exclude": ["intern", "co-op", "apprentice", "new grad", "junior", "entry"],
+  "level": ["senior", "sr", "staff", "lead"],
+  "locations": {
+    "remote": "any",
+    "onsite_hybrid": [
+      {"cities": ["new york", "nyc"], "modes": ["hybrid", "onsite"]},
+      {"cities": ["san francisco", "sf", "bay area"], "modes": ["hybrid", "onsite"]}
+    ]
+  },
+  "html": "hits.html"
+}

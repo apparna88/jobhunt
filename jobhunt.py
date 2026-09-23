@@ -392,9 +392,12 @@ def csv_list(s):
 
 def main():
     prof = {}
-    pf = os.path.join(HERE, "profile.json")
-    if os.path.exists(pf):
-        prof = json.load(open(pf))
+    # prefer a private profile.local.json (git-ignored) over the shared profile.json
+    for fname in ("profile.local.json", "profile.json"):
+        pf = os.path.join(HERE, fname)
+        if os.path.exists(pf):
+            prof = json.load(open(pf))
+            break
 
     def d(key, fallback):  # default from profile.json, else fallback
         v = prof.get(key, fallback)

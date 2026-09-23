@@ -1,16 +1,29 @@
 {
-  "_comment": "Copy this to profile.json and edit for your search. Delete fields you don't want.",
-  "title": ["software engineer", "software developer", "frontend", "full stack", "forward deployed", "embedded", "backend", "platform"],
-  "stack": ["react", "typescript", "python", "go", "java"],
-  "max_age": 3,
-  "exclude": ["intern", "co-op", "apprentice", "new grad", "junior", "entry"],
+  "_comment": "TEMPLATE. Copy to profile.json (git-ignored) and edit for your own search. Delete any field to disable that filter. CLI flags override these per run.",
+
+  "_titles_hint": "keep a posting if its TITLE contains ANY of these",
+  "title": ["software engineer", "software developer", "full stack", "backend", "frontend"],
+
+  "_stack_hint": "keep if the title/description contains ANY of these (whole-word: 'java' won't match 'javascript')",
+  "stack": ["python", "typescript", "react", "go", "java"],
+
+  "_level_hint": "keep only if the TITLE contains ANY of these; delete this field to include all levels",
   "level": ["senior", "sr", "staff", "lead"],
+
+  "_exclude_hint": "drop if the TITLE contains ANY of these",
+  "exclude": ["intern", "co-op", "apprentice", "new grad", "junior", "entry"],
+
+  "max_age": 3,
+  "min_salary": 0,
+
+  "_locations_hint": "remote: 'us' | 'any' | 'none'. Each zone: match a city -> allow only those modes. Omit 'locations' to accept all locations/modes.",
   "locations": {
-    "remote": "us",
+    "remote": "any",
     "onsite_hybrid": [
-      {"cities": ["new york", "nyc"], "modes": ["hybrid"]},
-      {"cities": ["san francisco", "sf", "bay area"], "modes": ["onsite", "hybrid"]}
+      {"cities": ["new york", "nyc"], "modes": ["hybrid", "onsite"]},
+      {"cities": ["san francisco", "sf", "bay area"], "modes": ["hybrid", "onsite"]}
     ]
   },
+
   "html": "hits.html"
 }
